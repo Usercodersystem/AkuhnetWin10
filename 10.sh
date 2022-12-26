@@ -16,7 +16,6 @@ echo "au - Australia (Sydney)"
 echo "sa - South America (Sao Paulo)"
 echo "jp - Japan (Tokyo)"
 echo "in - India (Mumbai)"
-read -p "choose ngrok region: " CRP
 ./ngrok tcp 3389 &>/dev/null &
 clear
 echo Downloading File From akuh.net
