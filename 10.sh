@@ -2,7 +2,7 @@ apt-get update
 echo "Download windows files"
 wget -O w10x64.img https://bit.ly/akuhnetW10x64
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/Usercodersystem/AkuhnetWin10/main/ng.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
